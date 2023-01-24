@@ -116,3 +116,16 @@ def lambda_handler(event, context):
         raise Exception('Connection from IP address not on whitelist')
 
 
+# method for managing external IP whitelist for external SFTP push
+
+There are several methods for managing an external IP whitelist for an external SFTP (Secure File Transfer Protocol) push. Some of these include:
+
+Using a firewall: One of the most common ways to manage an external IP whitelist is by using a firewall. This can be done by configuring the firewall to only allow connections from specific IP addresses or IP ranges.
+
+Using a VPN: Another way to manage an external IP whitelist is by using a VPN (Virtual Private Network). This allows you to securely connect to a remote network and access resources as if you were on the same LAN (Local Area Network).
+
+Using SFTP server software: Many SFTP server software packages have built-in IP whitelisting functionality. This allows you to specify a list of IP addresses that are allowed to connect to the SFTP server.
+
+Using a Reverse proxy: A reverse proxy is a type of proxy server that retrieves resources on behalf of a client from one or more servers. Reverse proxy servers can be used to implement IP whitelists by only allowing connections from specific IP addresses or IP ranges to pass through.
+
+It's worth noting that the best method for managing an external IP whitelist will depend on the specific needs of your organization and the resources you are trying to protect. It's always a good idea to consult with a security expert and/or network administrator to determine the best approach for your specific use case.
